@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  demoSelector.h
 //  ObjectiveC
 //
 //  Created by Văn Tiến Tú on 7/25/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface demoSelector : UIViewController
 
 @end
-
