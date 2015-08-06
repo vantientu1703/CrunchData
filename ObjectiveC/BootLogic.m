@@ -17,15 +17,21 @@
     //--------- From this line, please customize your menu data -----------
     NSDictionary* basic = @{SECTION: @"Dictionary", MENU: @[
                                     @{TITLE: @"Basic A",CLASS: @"BasicA"},
-                                    @{TITLE: @"Basic B", CLASS: @"BasicB"}
+                                    @{TITLE: @"Running Led ", CLASS: @"runningLed"}
+                                    
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Demo", MENU: @[
-                                    @{TITLE: @"DemoSelecor", CLASS: @"demoSelector"},
-                                    @{TITLE: @"Inter B", CLASS: @"InterB"}
+                                    @{TITLE: @"DemoSlider", CLASS: @"demoSelector"},
+                                    @{TITLE: @"C-ObjectiveC", CLASS: @"CObjectiveC"},
+                                    @{TITLE: @"CompareObject", CLASS:@"CompareObject"},
+                                    @{TITLE: @"CustomSlider", CLASS:@"CustomSlider"},
+                                    @{TITLE: @"Slider Rock", CLASS:@"SliderRock"}
                                   ]};
-    NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
-                                    @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
-                             ]};
+    NSDictionary* advanced = @{SECTION: @"NSArray", MENU: @[
+                                    @{TITLE: @"CreateArray", CLASS: @"createArray"}
+                                    //@{TITLE: @"CustomSlider", CLASS:@"CustomSlider"}
+                                    
+                                    ]};
     
     mainScreen.menu = @[basic, intermediate, advanced];
     mainScreen.title = @"Objective C Example";

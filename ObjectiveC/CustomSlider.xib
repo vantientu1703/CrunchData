@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomSlider">
+            <connections>
+                <outlet property="slider" destination="lNf-l1-8fw" id="MxZ-Ap-HGU"/>
+                <outlet property="slider2" destination="Nf1-iH-MR6" id="GRS-Ef-8Rd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="lNf-l1-8fw">
+                    <rect key="frame" x="42" y="166" width="330" height="31"/>
+                    <color key="backgroundColor" red="0.023529414087533951" green="0.074509806931018829" blue="0.074509806931018829" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Nf1-iH-MR6">
+                    <rect key="frame" x="95" y="292" width="295" height="31"/>
+                </slider>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="lNf-l1-8fw" secondAttribute="centerX" id="5Sf-jZ-pnA"/>
+                <constraint firstItem="lNf-l1-8fw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="166" id="5UX-dc-gKJ"/>
+                <constraint firstAttribute="trailing" secondItem="lNf-l1-8fw" secondAttribute="trailing" constant="44" id="62t-mZ-oHJ"/>
+                <constraint firstAttribute="trailing" secondItem="lNf-l1-8fw" secondAttribute="trailing" constant="33" id="6Q7-8G-oSg"/>
+                <constraint firstItem="lNf-l1-8fw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="55" id="bMI-a8-30K"/>
+                <constraint firstAttribute="centerX" secondItem="lNf-l1-8fw" secondAttribute="centerX" id="oF1-6C-2qA"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Nf1-iH-MR6"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="5Sf-jZ-pnA"/>
+                    <exclude reference="62t-mZ-oHJ"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="335" y="322"/>
+        </view>
+    </objects>
+</document>

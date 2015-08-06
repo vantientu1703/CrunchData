@@ -9,6 +9,10 @@
 #import "demoSelector.h"
 
 @interface demoSelector ()
+{
+    NSTimer* _timer;
+    
+}
 @property (weak, nonatomic) IBOutlet UISlider *slider;
 
 @end
@@ -17,14 +21,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self performSelector:@selector(hideSlider) withObject:nil afterDelay:2];
+    _timer=[NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(onTimer) userInfo:nil repeats:true];
+    //[self performSelector:@selector(hideSlider) withObject:nil afterDelay:2];
+}
+-(void) onTimer{
+    _slider.value+=0.05;
+    if(_slider.value>=1.0){
+        _slider.value=1.0;
+        [_timer invalidate];
+    }
 }
 - (IBAction)doCrunchData:(id)sender {
     //[self performSelector:@selector(crunchData) withObject:nil];
     //[self performSelectorInBackground:@selector(crunchData) withObject:nil];
     [self performSelectorOnMainThread:@selector(crunchData) withObject:nil waitUntilDone:true];
-    [self performSelectorOnMainThread:@selector(processData:) withObject:@{@"Tao":@"Dua"} waitUntilDone:true];
+    NSLog(@"Hello world");
+    //[self performSelectorOnMainThread:@selector(processData:) withObject:@{@"Tao":@"Dua"} waitUntilDone:true];
 }
 
 - (void) crunchData{
