@@ -15,6 +15,12 @@
 		EF24E4381B66849B0071363D /* runningLed.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF24E4361B66849B0071363D /* runningLed.xib */; };
 		EF24E43C1B6685170071363D /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = EF24E43A1B6685170071363D /* green.png */; };
 		EF24E43D1B6685170071363D /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = EF24E43B1B6685170071363D /* grey.png */; };
+		EF457D571B78E5B3001F2198 /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = EF457D561B78E5B3001F2198 /* CustomSwitch.m */; };
+		EF457D5C1B78E65F001F2198 /* blueON.png in Resources */ = {isa = PBXBuildFile; fileRef = EF457D581B78E65F001F2198 /* blueON.png */; };
+		EF457D5D1B78E65F001F2198 /* grayOFF.png in Resources */ = {isa = PBXBuildFile; fileRef = EF457D591B78E65F001F2198 /* grayOFF.png */; };
+		EF457D5E1B78E65F001F2198 /* grayON.png in Resources */ = {isa = PBXBuildFile; fileRef = EF457D5A1B78E65F001F2198 /* grayON.png */; };
+		EF457D5F1B78E65F001F2198 /* redOFF.png in Resources */ = {isa = PBXBuildFile; fileRef = EF457D5B1B78E65F001F2198 /* redOFF.png */; };
+		EF457D651B78EC2C001F2198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF457D641B78EC2C001F2198 /* ViewController.m */; };
 		EF48F28A1B64D74400C1051C /* CObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF48F2891B64D74400C1051C /* CObjectiveC.m */; };
 		EF48F28D1B64D77900C1051C /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = EF48F28B1B64D77900C1051C /* util.c */; };
 		EF48F2901B64D89E00C1051C /* utilObjFuntion.m in Sources */ = {isa = PBXBuildFile; fileRef = EF48F28F1B64D89E00C1051C /* utilObjFuntion.m */; };
@@ -58,6 +64,14 @@
 		EF24E4361B66849B0071363D /* runningLed.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = runningLed.xib; sourceTree = "<group>"; };
 		EF24E43A1B6685170071363D /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
 		EF24E43B1B6685170071363D /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
+		EF457D551B78E5B3001F2198 /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitch.h; sourceTree = "<group>"; };
+		EF457D561B78E5B3001F2198 /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitch.m; sourceTree = "<group>"; };
+		EF457D581B78E65F001F2198 /* blueON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueON.png; sourceTree = "<group>"; };
+		EF457D591B78E65F001F2198 /* grayOFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayOFF.png; sourceTree = "<group>"; };
+		EF457D5A1B78E65F001F2198 /* grayON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayON.png; sourceTree = "<group>"; };
+		EF457D5B1B78E65F001F2198 /* redOFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redOFF.png; sourceTree = "<group>"; };
+		EF457D631B78EC2C001F2198 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF457D641B78EC2C001F2198 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF48F2881B64D74400C1051C /* CObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CObjectiveC.h; sourceTree = "<group>"; };
 		EF48F2891B64D74400C1051C /* CObjectiveC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CObjectiveC.m; sourceTree = "<group>"; };
 		EF48F28B1B64D77900C1051C /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
@@ -154,6 +168,21 @@
 			name = image;
 			sourceTree = "<group>";
 		};
+		EF457D541B78E58A001F2198 /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				EF457D581B78E65F001F2198 /* blueON.png */,
+				EF457D591B78E65F001F2198 /* grayOFF.png */,
+				EF457D5A1B78E65F001F2198 /* grayON.png */,
+				EF457D5B1B78E65F001F2198 /* redOFF.png */,
+				EF457D551B78E5B3001F2198 /* CustomSwitch.h */,
+				EF457D561B78E5B3001F2198 /* CustomSwitch.m */,
+				EF457D631B78EC2C001F2198 /* ViewController.h */,
+				EF457D641B78EC2C001F2198 /* ViewController.m */,
+			);
+			name = CustomSwitch;
+			sourceTree = "<group>";
+		};
 		EF5999C91B634FA1004C9DEF = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +209,7 @@
 				EF2209321B6BF3980019B1D2 /* CustomSlider */,
 				EFCFCBEE1B7142ED0010BA58 /* SliderRock */,
 				EFC70FE71B737DDA007954F6 /* ONOFF */,
+				EF457D541B78E58A001F2198 /* CustomSwitch */,
 				EF5999E21B634FA1004C9DEF /* Images.xcassets */,
 				EF5999E41B634FA1004C9DEF /* LaunchScreen.xib */,
 				EF5999D51B634FA1004C9DEF /* Supporting Files */,
@@ -354,6 +384,7 @@
 			files = (
 				EF24E43C1B6685170071363D /* green.png in Resources */,
 				EFCFCBF31B71431F0010BA58 /* SliderRock.xib in Resources */,
+				EF457D5F1B78E65F001F2198 /* redOFF.png in Resources */,
 				EF22092F1B6BE60A0019B1D2 /* track.png in Resources */,
 				EFC70FED1B737E0A007954F6 /* OffBlack.png in Resources */,
 				EFD53C9F1B6E23F6009A3619 /* Maxtrack.png in Resources */,
@@ -362,6 +393,7 @@
 				EF5999E61B634FA1004C9DEF /* LaunchScreen.xib in Resources */,
 				EF2209311B6BE74C0019B1D2 /* CustomSlider in Resources */,
 				EF24E43D1B6685170071363D /* grey.png in Resources */,
+				EF457D5C1B78E65F001F2198 /* blueON.png in Resources */,
 				EF2209371B6BF3D30019B1D2 /* CustomSlider.xib in Resources */,
 				EFD53CA11B6E23F6009A3619 /* Mintrack.png in Resources */,
 				EFC70FF01B737E0A007954F6 /* OnWhite.png in Resources */,
@@ -369,12 +401,14 @@
 				EFC70FEE1B737E0A007954F6 /* OffWhite.png in Resources */,
 				EFCFCBF61B714EE80010BA58 /* background2.png in Resources */,
 				EFD8582F1B65DD3C0068C34D /* data.plist in Resources */,
+				EF457D5D1B78E65F001F2198 /* grayOFF.png in Resources */,
 				EFD53CA21B6E23F6009A3619 /* MinVolume.png in Resources */,
 				EFD53CA31B6E23F6009A3619 /* Thumb.png in Resources */,
 				EFF0CD4A1B63B7D4005FB18C /* demoSelector.xib in Resources */,
 				EF24E4381B66849B0071363D /* runningLed.xib in Resources */,
 				EFD53CA41B6E23F6009A3619 /* Track.png in Resources */,
 				EFD53CA01B6E23F6009A3619 /* MaxVolume.png in Resources */,
+				EF457D5E1B78E65F001F2198 /* grayON.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,12 +419,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF457D651B78EC2C001F2198 /* ViewController.m in Sources */,
 				EF599A811B636245004C9DEF /* BasicA.m in Sources */,
 				EF24E4371B66849B0071363D /* runningLed.m in Sources */,
 				EFCFCBF21B71431F0010BA58 /* SliderRock.m in Sources */,
 				EF48F28A1B64D74400C1051C /* CObjectiveC.m in Sources */,
 				EF2209361B6BF3D30019B1D2 /* CustomSlider.m in Sources */,
 				EF599A071B635009004C9DEF /* BootLogic.m in Sources */,
+				EF457D571B78E5B3001F2198 /* CustomSwitch.m in Sources */,
 				EFD8582D1B65D9E40068C34D /* createArray.m in Sources */,
 				EF599A091B635009004C9DEF /* MainScreen.m in Sources */,
 				EF599A081B635009004C9DEF /* ConsoleScreen.m in Sources */,

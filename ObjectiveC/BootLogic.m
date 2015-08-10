@@ -25,7 +25,8 @@
                                     @{TITLE: @"C-ObjectiveC", CLASS: @"CObjectiveC"},
                                     @{TITLE: @"CompareObject", CLASS:@"CompareObject"},
                                     @{TITLE: @"CustomSlider", CLASS:@"CustomSlider"},
-                                    @{TITLE: @"Slider Rock", CLASS:@"SliderRock"}
+                                    @{TITLE: @"Slider Rock", CLASS:@"SliderRock"},
+                                    @{TITLE: @"CustomSwitch",CLASS:@"ViewController"}
                                   ]};
     NSDictionary* advanced = @{SECTION: @"NSArray", MENU: @[
                                     @{TITLE: @"CreateArray", CLASS: @"createArray"}
