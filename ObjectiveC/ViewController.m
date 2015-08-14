@@ -18,7 +18,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    mySwitch=[[CustomSwitch alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
+    mySwitch=[[CustomSwitch alloc] initWithFrame:CGRectMake(0, 0, 200, 100)];
     mySwitch.center=CGPointMake(self.view.bounds.size.width *0.5, 300);
     [self.view addSubview:mySwitch];
     self.view.backgroundColor=[UIColor whiteColor];
